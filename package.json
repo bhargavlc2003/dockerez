@@ -33,6 +33,14 @@
   "engines": {
     "node": ">=18"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/bhargavlc2003/dockerez.git"
+  },
+  "bugs": {
+  "url": "https://github.com/bhargavlc2003/dockerez/issues"
+  },
+  "homepage": "https://github.com/bhargavlc2003/dockerez#readme",
   "dependencies": {
     "commander": "^14.0.0"
   }
