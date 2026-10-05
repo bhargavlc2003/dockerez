@@ -1,0 +1,39 @@
+{
+  "name": "dockerez",
+  "version": "1.0.0",
+  "description": "Automatically detect projects and generate Dockerfiles, Docker Compose configurations, and Docker environment files.",
+  "main": "src/index.js",
+  "bin": {
+    "dockerez": "bin/dockerez.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node -e \"console.log('dockerez: no automated tests configured yet.')\""
+  },
+  "keywords": [
+    "docker",
+    "dockerfile",
+    "docker-compose",
+    "devops",
+    "cli",
+    "containerization",
+    "docker-generator",
+    "dockerfile-generator",
+    "developer-tools"
+  ],
+  "author": "Bhargav Chaudhari",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  }
+}
