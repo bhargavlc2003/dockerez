@@ -1,5 +1,7 @@
 # Dockerez
 
+[![npm version](https://img.shields.io/npm/v/dockerez.svg)](https://www.npmjs.com/package/dockerez)
+
 Automatically detect supported projects and generate Docker configuration with minimal setup. 🐋
 
 Dockerez scans a project directory, detects supported frameworks and databases, and generates Dockerfiles, `.dockerignore` files, Docker Compose configurations, and environment templates.
